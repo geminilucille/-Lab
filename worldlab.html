@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="世界认知Lab，精选全球顶级资源，帮助普通人应对百年未有之大变局，洞察趋势，提前准备。">
+  <meta name="keywords" content="社会认知, 世界规律, AI 趋势, 创业资源, 投资策略, 百年变局">
+  <meta property="og:title" content="世界认知Lab：看清世界与 AI 趋势">
+  <meta property="og:description" content="精选全球顶级资源，帮助你应对百年未有之大变局，少走弯路。">
+  <meta property="og:image" content="https://your-site-name.netlify.app/og-image.jpg"> <!-- 替换为你的封面图片 -->
+  <title>世界认知Lab：看清世界与 AI 趋势</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white font-sans">
+  <!-- 导航栏 -->
+  <nav class="bg-white p-4 shadow-md sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-yellow-500">世界认知Lab</h1>
+    </div>
+  </nav>
+
+  <!-- 主要内容 -->
+  <main class="container mx-auto p-6">
+    <!-- Hero 模块 -->
+    <section id="home" class="py-16 text-center">
+      <h2 class="text-5xl font-extrabold mb-4">
+        百年未有之大变局，
+        <span class="bg-pink-200 px-2">你准备好了吗？</span>
+      </h2>
+      <p class="text-xl text-gray-600 mb-4 max-w-2xl mx-auto">
+        世界正面临前所未有的挑战，普通人需要了解自己的坐标系，预测未来走势，提前做好准备。
+      </p>
+      <p class="text-xl text-gray-600 mb-4 max-w-2xl mx-auto">
+        世界认知Lab 精选全球顶级资源（来自达沃斯论坛、60 Minutes 等），帮助你洞察趋势，应对变局，助力普通人穿越周期。
+      </p>
+      <!-- Stripe 按钮代码（从 Stripe 后台复制） -->
+      <script src="https://js.stripe.com/v3/"></script>
+      <button id="checkout-button-1" class="bg-yellow-500 text-white px-10 py-5 rounded-full hover:bg-yellow-600 hover:scale-105 transition-transform text-xl font-semibold">
+        立即解锁资源
+      </button>
+      <script>
+        var stripe = Stripe('pk_test_xxx');
+        document.getElementById('checkout-button-1').addEventListener('click', function() {
+          stripe.redirectToCheckout({
+            sessionId: 'cs_test_xxx'
+          }).then(function(result) {
+            if (result.error) {
+              alert(result.error.message);
+            }
+          });
+        });
+      </script>
+      <p class="text-gray-500 mt-4">已有 1,000+ 创业者信赖</p>
+    </section>
+
+    <!-- 指引路径 -->
+    <section class="py-12 text-center">
+      <h3 class="text-3xl font-bold mb-8">12 天看清趋势，开启认知与实践的循环进化</h3>
+      <div class="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
+        <div class="flex flex-col items-center">
+          <span class="text-4xl mb-2">📜</span>
+          <p class="text-lg font-semibold">Day 1</p>
+          <p class="text-gray-600">了解历史规律：财富、权利、科技的演变</p>
+        </div>
+        <div class="hidden md:block h-1 w-16 bg-gray-300"></div>
+        <div class="flex flex-col items-center">
+          <span class="text-4xl mb-2">🌍</span>
+          <p class="text-lg font-semibold">Day 5</p>
+          <p class="text-gray-600">看清当下格局：地缘政治、国家脉络</p>
+        </div>
+        <div class="hidden md:block h-1 w-16 bg-gray-300"></div>
+        <div class="flex flex-col items-center">
+          <span class="text-4xl mb-2">🔭</span>
+          <p class="text-lg font-semibold">Day 8</p>
+          <p class="text-gray-600">预测未来趋势：展望 AGI 时代</p>
+        </div>
+        <div class="hidden md:block h-1 w-16 bg-gray-300"></div>
+        <div class="flex flex-col items-center">
+          <span class="text-4xl mb-2">♟️</span>
+          <p class="text-lg font-semibold">Day 12</p>
+          <p class="text-gray-600">做对选择：指导事业、投资、保底</p>
+        </div>
+      </div>
+      <p class="text-gray-500 mt-6">认知提升 → 指导实践 → 实践获取新认知 → 循环进化</p>
+    </section>
+
+    <!-- 资源框架 -->
+    <section class="py-12 text-center">
+      <h3 class="text-3xl font-bold mb-8">顶级社会认知框架</h3>
+      <div class="flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-6 max-w-4xl mx-auto">
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md max-w-md">
+          <h4 class="text-xl font-semibold mb-4 flex items-center">
+            <span class="text-gray-500 mr-2">1</span> 认知提升
+          </h4>
+          <ul class="text-left text-gray-700 space-y-2">
+            <li><strong>历史</strong>：了解人类社会财富和权利斗争过程中进化的演变规律</li>
+            <li><strong>当下</strong>：在百年未有之大变局中，明确自己的坐标系——地缘政治格局、国家发展阶段、历史进程的阶段</li>
+            <li><strong>未来</strong>：预测未来走势，展望未来 10 年、百年趋势，提前做好准备</li>
+          </ul>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md max-w-md">
+          <h4 class="text-xl font-semibold mb-4 flex items-center">
+            <span class="text-gray-500 mr-2">2</span> 指导实践
+          </h4>
+          <ul class="text-left text-gray-700 space-y-2">
+            <li><strong>事业</strong>：抓住变局中的发展机会，为未来 10 年、几十年布局，做难而正确的事业</li>
+            <li><strong>保底</strong>：拥有底线思维，预知危机来临的迹象，做好防范，穿越周期</li>
+            <li><strong>投资</strong>：在不同阶段优化投资，实现收益最大化，应对大危机</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-8 max-w-2xl mx-auto">
+        <h4 class="text-xl font-semibold mb-4">覆盖宏观维度</h4>
+        <ul class="text-left text-gray-700 space-y-2">
+          <li><strong>财富</strong>：经济是如何运转的？资本的大周期是怎样的？</li>
+          <li><strong>权利</strong>：帝国是如何崛起又衰落的？科技发展和创新的逻辑是怎样的?</li>
+          <li><strong>科技</strong>：500 年来人类大发展背后的科技规律是什么？</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 产品优势 -->
+    <section class="py-12 bg-gray-900 text-white text-center">
+      <h3 class="text-3xl font-bold mb-8">
+        自己找信息太麻烦，我们提供顶级社会认知
+      </h3>
+      <div class="flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-6">
+        <div class="bg-red-100 text-black p-6 rounded-lg shadow-md max-w-md">
+          <h4 class="text-xl font-semibold mb-4 flex items-center">
+            <span class="text-red-500 mr-2">✗</span> 自己找信息
+          </h4>
+          <ul class="text-left text-gray-700 space-y-2">
+            <li>信息太多，挑不下来</li>
+            <li>费时又费力</li>
+            <li>东拼西凑，抓不住重点</li>
+            <li>看不懂趋势，容易迷茫</li>
+          </ul>
+        </div>
+        <div class="bg-green-100 text-black p-6 rounded-lg shadow-md max-w-md">
+          <h4 class="text-xl font-semibold mb-4 flex items-center">
+            <span class="text-green-500 mr-2">✓</span> 我们的资源库
+          </h4>
+          <ul class="text-left text-gray-700 space-y-2">
+            <li>精选全球头部资源（演讲、论坛、书籍等）</li>
+            <li>聚焦财富、权利、科技的宏观维度</li>
+            <li>覆盖历史、当下、未来，体系化认知</li>
+            <li>指导事业、投资、保底，抓住大机遇</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 为什么选择我们（卖点讲解） -->
+    <section class="py-12 text-center">
+      <h3 class="text-3xl font-bold mb-4">
+        <span class="inline-block mr-2">✨</span> 顶级资源库，帮你应对变局
+      </h3>
+      <p class="text-xl text-gray-600 mb-6 max-w-2xl mx-auto">
+        面对百年未有之大变局，世界认知Lab 为你精选全球顶级资源，帮你看清趋势，指导实践，未来十年甚至几十年的宝贵财富。
+      </p>
+      <div class="text-left max-w-2xl mx-auto space-y-4">
+        <p class="text-lg">1. 精选高质量内容（全球领导人、企业家、思想家的演讲、书籍、Podcast 等）</p>
+        <p class="text-lg">2. 聚焦社会认知（财富、权利、科技的演变规律，AI 版图及机会）</p>
+        <p class="text-lg">3. 体系化提升（历史、当下、未来，指导事业、投资、保底）</p>
+        <p class="text-lg">4. 长期价值（不断完善，伴随你应对变局，穿越周期）</p>
+      </div>
+      <p class="text-gray-500 mt-4">省下 80% 的时间，快速上手</p>
+    </section>
+
+    <!-- 用户评价 -->
+    <section class="py-12 bg-gray-100 text-center">
+      <h3 class="text-3xl font-bold mb-8">他们这样说</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="bg-white p-6 rounded-lg shadow-md relative">
+          <span class="absolute top-4 left-4 text-4xl text-gray-300">“</span>
+          <p class="text-lg italic mb-4 pt-4">在这里，我看清了世界是如何运转的，提前调整方向，为未来十年做好了准备。</p>
+          <span class="absolute bottom-4 right-4 text-4xl text-gray-300">”</span>
+          <p class="text-gray-600">——张先生，超级个体</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md relative">
+          <span class="absolute top-4 left-4 text-4xl text-gray-300">“</span>
+          <p class="text-lg italic mb-4 pt-4">这些资源让我看懂了全球格局，投资更有底气了。</p>
+          <span class="absolute bottom-4 right-4 text-4xl text-gray-300">”</span>
+          <p class="text-gray-600">——李女士，投资人</p>
+        </div>
+      </div>
+      <p class="text-gray-500 mt-6">已有 1,000+ 创业者信赖</p>
+    </section>
+
+    <!-- 牛人观点 -->
+    <section class="py-12 bg-gray-900 text-white text-center">
+      <h3 class="text-3xl font-bold mb-8">听听大佬怎么说</h3>
+      <div class="max-w-3xl mx-auto space-y-8">
+        <div>
+          <p class="text-xl italic mb-4">“持续学习是应对复杂世界的唯一方法。”</p>
+          <p class="text-gray-300">——Ray Dalio，《原则》作者</p>
+        </div>
+        <div>
+          <p class="text-xl italic mb-4">“理解世界运行规律是创新的关键。”</p>
+          <p class="text-gray-300">——Elon Musk，特斯拉 CEO</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 立即解锁（强化 CTA） -->
+    <section id="paywall" class="py-16 text-center">
+      <h3 class="text-4xl font-extrabold mb-4">
+        看清变局，<span class="bg-gray-200 px-2">马上行动</span>
+      </h3>
+      <p class="text-xl text-gray-600 mb-6 max-w-2xl mx-auto">
+        世界的运转规律是什么？人类发展的历程是怎样的？科技如何带动人类的发展？创新的底层逻辑是什么？未来的 AGI 时代的世界是怎样的？普通人如何应对百年变局？
+      </p>
+      <div class="max-w-2xl mx-auto bg-gray-100 p-6 rounded-lg shadow-md mb-6">
+        <h4 class="text-2xl font-semibold mb-2">终身访问计划</h4>
+        <p class="text-3xl font-bold mb-4">$19 USD <span class="text-gray-500 line-through">$299</span></p>
+        <ul class="text-left text-gray-700 space-y-2">
+          <li>✔ 永久访问所有资源（历史、当下、未来等）</li>
+          <li>✔ 每月新增内容，逐步涨价</li>
+          <li>✔ 省下 80% 找资料时间</li>
+          <li>✔ 一杯咖啡钱，终身受益</li>
+        </ul>
+      </div>
+      <!-- Stripe 按钮代码（从 Stripe 后台复制） -->
+      <script src="https://js.stripe.com/v3/"></script>
+      <button id="checkout-button-2" class="bg-yellow-500 text-white px-12 py-6 rounded-full hover:bg-yellow-600 hover:scale-105 transition-transform text-xl font-semibold">
+        立即解锁，限时优惠
+      </button>
+      <script>
+        var stripe = Stripe('pk_test_xxx');
+        document.getElementById('checkout-button-2').addEventListener('click', function() {
+          stripe.redirectToCheckout({
+            sessionId: 'cs_test_xxx'
+          }).then(function(result) {
+            if (result.error) {
+              alert(result.error.message);
+            }
+          });
+        });
+      </script>
+    </section>
+
+    <!-- 关于 -->
+    <section id="about" class="mb-12 text-center">
+      <h3 class="text-3xl font-bold mb-4">关于我们</h3>
+      <p class="text-lg text-gray-600 mb-4">
+        世界正处于百年未有之大变局，普通人需要思考自己的坐标系，预测未来走势，提前准备。
+        “世界认知Lab”从全球网络精选最优质资源，帮助企业家、创业者、超级个体及普通人理解世界规律，应对挑战。
+      </p>
+      <p class="text-lg text-gray-600 mb-4">
+        聚焦财富（经济运转、资本周期）、权利（帝国兴衰、科技创新逻辑）、科技（科技发展规律）的宏观维度，回答关键问题：世界的运转规律是什么？人类发展的历程如何？科技如何驱动发展？创新的底层逻辑是什么？AGI 时代的世界怎样？AI 版图及机会如何？
+      </p>
+      <p class="text-lg text-gray-600">
+        提供高质量、头部资源（而非数量堆积）。一份好资源，胜过万千数量级的普通资源！
+      </p>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="bg-gray-800 text-white p-4 text-center">
+    <p>© 2025 世界认知Lab | 助力看清未来</p>
+  </footer>
+</body>
+</html>
