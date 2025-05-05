@@ -35,22 +35,15 @@
         世界认知Lab 精选全球顶级资源（来自达沃斯论坛、60 Minutes 等），帮助你洞察趋势，应对变局，助力普通人穿越周期。
       </p>
       <!-- Stripe 按钮代码（从 Stripe 后台复制） -->
-      <script src="https://js.stripe.com/v3/"></script>
-      <button id="checkout-button-1" class="bg-yellow-500 text-white px-10 py-5 rounded-full hover:bg-yellow-600 hover:scale-105 transition-transform text-xl font-semibold">
-        立即解锁资源
-      </button>
-      <script>
-        var stripe = Stripe('pk_test_xxx');
-        document.getElementById('checkout-button-1').addEventListener('click', function() {
-          stripe.redirectToCheckout({
-            sessionId: 'cs_test_xxx'
-          }).then(function(result) {
-            if (result.error) {
-              alert(result.error.message);
-            }
-          });
-        });
-      </script>
+     <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1RLFTjEA44YENwhfLAe8IEfn"
+  publishable-key="pk_live_51RFRHBEA44YENwhfy2SOV5U2Wwqf2PgUGPYA2an2xrW1ZOsitLptC7XfkUd3590SyuZUBoiHJDxqbLFmtpWU2s5O00sjKdeddE"
+>
+</stripe-buy-button>
       <p class="text-gray-500 mt-4">已有 1,000+ 创业者信赖</p>
     </section>
 
@@ -222,22 +215,15 @@
         </ul>
       </div>
       <!-- Stripe 按钮代码（从 Stripe 后台复制） -->
-      <script src="https://js.stripe.com/v3/"></script>
-      <button id="checkout-button-2" class="bg-yellow-500 text-white px-12 py-6 rounded-full hover:bg-yellow-600 hover:scale-105 transition-transform text-xl font-semibold">
-        立即解锁，限时优惠
-      </button>
-      <script>
-        var stripe = Stripe('pk_test_xxx');
-        document.getElementById('checkout-button-2').addEventListener('click', function() {
-          stripe.redirectToCheckout({
-            sessionId: 'cs_test_xxx'
-          }).then(function(result) {
-            if (result.error) {
-              alert(result.error.message);
-            }
-          });
-        });
-      </script>
+      <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1RLFTjEA44YENwhfLAe8IEfn"
+  publishable-key="pk_live_51RFRHBEA44YENwhfy2SOV5U2Wwqf2PgUGPYA2an2xrW1ZOsitLptC7XfkUd3590SyuZUBoiHJDxqbLFmtpWU2s5O00sjKdeddE"
+>
+</stripe-buy-button>
     </section>
 
     <!-- 关于 -->
